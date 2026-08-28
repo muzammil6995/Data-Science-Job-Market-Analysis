@@ -46,4 +46,13 @@ It includes detailed information on:
 
 ####  Transform  
 
-- I then transformed each query by Changing column data types, Removing unnecessary columns, Cleaning text to eliminate specific words, Trimming excess whitespace.    
+- I then transformed each query by Changing column data types, Removing unnecessary columns, Cleaning text to eliminate specific words, Trimming excess whitespace.
+
+  -data_jobs_all
+
+  
+  -data_job_skills
+   Load
+Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
+📊 data_jobs_all
+data_job_skills
