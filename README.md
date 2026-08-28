@@ -48,11 +48,27 @@ It includes detailed information on:
 
 - I then transformed each query by Changing column data types, Removing unnecessary columns, Cleaning text to eliminate specific words, Trimming excess whitespace.
 
-  -data_jobs_all
+  - data_jobs_all
+     
+  ![Applied Steps in Salary data query](appl_step_sal.png)     
 
+  - data_job_skills
+      
+  ![Applied Steps in Skill data query](appl_step_skl.png)
+       
+**Load**
+
+ - Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.  
+   - data_jobs_all
+
+     ![Transformed query of salary data](trans_query_sal.png)
+     
+   - data_job_skills
   
-  -data_job_skills
-   Load
-Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
-📊 data_jobs_all
-data_job_skills
+     ![Transformed query of skill data](trans_query_skl.png)
+
+ ## Analysis  
+ **Insights**  
+  - There is a positive correlation between the number of skills requested in job postings and the median salary, particularly in roles like Senior Data Engineer and Data Scientist.    
+
+  - Roles that require fewer skills, like Business Analyst, tend to offer lower salaries, suggesting that more specialized skill sets command higher market value.         
