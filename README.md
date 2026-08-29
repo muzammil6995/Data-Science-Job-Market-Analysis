@@ -80,7 +80,7 @@ It includes detailed information on:
 ### Skills: PivotTables & DAX  
 **Pivot Table**  
  - I created a PivotTable using the Data Model I created with Power Pivot.  
- - I moved the job_title_short to the rows area and salary_year_avg into the values area.  
+ - I moved the `job_title_short` to the rows area and `salary_year_avg` into the values area.  
  - Then I added new measure to calculate the median salary for United States jobs.
 ```
 =CALCULATE(
@@ -103,11 +103,11 @@ Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
 ## 3) What are the top skills of data professionals?  
 #### Skill: Power Pivot  
  **Power Pivot**  
-  - I created a data model by integrating the data_jobs_all and data_jobs_skills tables into one model.  
+  - I created a data model by integrating the `data_jobs_all` and `data_jobs_skills` tables into one model.  
   - Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.  
 
  **Data Model**  
-  - I created a relationship between my two tables using the job_id column.
+  - I created a relationship between my two tables using the `job_id` column.
 
   ![Diagram view](2_Project_Analysis_Screenshot5.png)  
 
